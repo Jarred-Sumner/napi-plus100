@@ -15,3 +15,8 @@ static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 pub fn plus_100(input: u32) -> u32 {
   input + 100
 }
+
+
+#[napi]
+pub fn noop() {
+}

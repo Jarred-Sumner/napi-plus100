@@ -7,3 +7,4 @@ export class ExternalObject<T> {
   }
 }
 export function plus100(input: number): number
+export function noop(): void
