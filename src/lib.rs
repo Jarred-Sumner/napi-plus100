@@ -18,5 +18,12 @@ pub fn plus_100(input: u32) -> u32 {
 
 
 #[napi]
+pub fn add3(input: i32, input2: i32, input3: i32) -> i32 {
+  input + input2 + input3
+}
+
+
+
+#[napi]
 pub fn noop() {
 }
